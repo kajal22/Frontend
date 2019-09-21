@@ -45,7 +45,7 @@ app.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $u
 
 app.service('SocketService', ['socketFactory', function SocketService(socketFactory) {
     return socketFactory({
-    ioSocket: io.connect('http://localhost:4000')
+    ioSocket: io.connect('http://13.59.67.17:4000')
     });
     }]);
 
